@@ -18,3 +18,13 @@ E:\OpenServer\obj\Debug\netcoreapp2.0\OpenServer.AssemblyInfoInputs.cache
 E:\OpenServer\obj\Debug\netcoreapp2.0\OpenServer.AssemblyInfo.cs
 E:\OpenServer\obj\Debug\netcoreapp2.0\OpenServer.dll
 E:\OpenServer\obj\Debug\netcoreapp2.0\OpenServer.pdb
+E:\备份\.NetCore-NIO-C-Server\bin\Debug\netcoreapp2.0\OpenServer.deps.json
+E:\备份\.NetCore-NIO-C-Server\bin\Debug\netcoreapp2.0\OpenServer.runtimeconfig.json
+E:\备份\.NetCore-NIO-C-Server\bin\Debug\netcoreapp2.0\OpenServer.runtimeconfig.dev.json
+E:\备份\.NetCore-NIO-C-Server\bin\Debug\netcoreapp2.0\OpenServer.dll
+E:\备份\.NetCore-NIO-C-Server\bin\Debug\netcoreapp2.0\OpenServer.pdb
+E:\备份\.NetCore-NIO-C-Server\obj\Debug\netcoreapp2.0\OpenServer.csproj.CoreCompileInputs.cache
+E:\备份\.NetCore-NIO-C-Server\obj\Debug\netcoreapp2.0\OpenServer.AssemblyInfoInputs.cache
+E:\备份\.NetCore-NIO-C-Server\obj\Debug\netcoreapp2.0\OpenServer.AssemblyInfo.cs
+E:\备份\.NetCore-NIO-C-Server\obj\Debug\netcoreapp2.0\OpenServer.dll
+E:\备份\.NetCore-NIO-C-Server\obj\Debug\netcoreapp2.0\OpenServer.pdb

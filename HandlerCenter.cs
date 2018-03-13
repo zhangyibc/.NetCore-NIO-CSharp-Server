@@ -1,9 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MoonSharp.Interpreter;
+using MoonSharp.Interpreter.Loaders;
 
 namespace OpenServer
 {
@@ -20,6 +21,7 @@ namespace OpenServer
         {
 	    script = new Script();
 	    script.Globals["sendMessage"] = (Action<int, string>)MessageSend;
+		((ScriptLoaderBase)script.Options.ScriptLoader).ModulePaths = ScriptLoaderBase.UnpackStringPaths("Lua/?;Lua/?.lua");
         }
 
         public override void ClientClose(UserToken token, string error)
@@ -48,9 +50,9 @@ namespace OpenServer
             int tokenId = token.tokenID;
             //TODO通知lua有消息送达
             //Console.WriteLine("id："+tokenId+"  message："+model.message);
-	    script.Globals["tokenID"] = tokenId;
-	    script.Globals["message"] = model.message;
-	    script.DoFile("mainServer.lua");
+	    		script.Globals["tokenID"] = tokenId;
+	    		script.Globals["message"] = model.message;
+	    		script.DoFile("Lua/mainServer.lua");
         }
 
         //lua调用客户端推送消息给客户端

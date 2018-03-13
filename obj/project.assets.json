@@ -700,23 +700,23 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\WebbZhang\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/OpenServer/OpenServer.csproj",
+      "projectUniqueName": "E:\\OpenServer\\OpenServer.csproj",
       "projectName": "OpenServer",
-      "projectPath": "/home/OpenServer/OpenServer.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/OpenServer/obj/",
+      "projectPath": "E:\\OpenServer\\OpenServer.csproj",
+      "packagesPath": "C:\\Users\\WebbZhang\\.nuget\\packages\\",
+      "outputPath": "E:\\OpenServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\WebbZhang\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -740,12 +740,12 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           },
           "MoonSharp": {
             "target": "Package",
-            "version": "2.0.0.0"
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
